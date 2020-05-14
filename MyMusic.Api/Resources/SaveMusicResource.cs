@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace MyMusic.Core.Models
+namespace MyMusic.Api.Resources
 {
-    public class Music
+    public class SaveMusicResource
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public int ArtistId { get; set; }
-        public Artist Artist { get; set; }
     }
 }
